@@ -19,8 +19,6 @@ dependencies = [
 ]
 
 [tool.uv]
-# optional: define default Python version for the venv
-# python = "3.11"  # This field is not valid in [tool.uv] section
 
 [tool.hatch.build.targets.wheel]
 packages = ["app"]
